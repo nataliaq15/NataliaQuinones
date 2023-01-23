@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+body{
+background-color: rgb(201,105,70);
+font-size: 16px;
+}
+
+p{
+margin-left: auto;
+color: rgb(252,214,141);
+margin-right: auto;
+width: 35em;
+text-align: left;
+font-family: Gill Sans MT, sans-serif;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+}
+
+header{
+	text-align: center;
+	margin: 0px auto;
+	width: 100%;
+	background-color:rgb(252,214,141);
+	overflow: auto;
+	height: 165px;
+}
+
+#logo{
+	margin-bottom: 30px;
+	text-align: center;
+	padding-top: 20px;
+	height: 100px;
+	float: left;
+	padding-left: 20px;
+}
+
+h1{
+	color: rgb(114,12,12);
+	font-family: Gill Sans MT, sans-serif;
+	font-weight: bold;
+	font-size: 80px;
+	text-align: center;
+}
+
+h2{
+	font-family: Georgia, serif;
+	font-weight: bold;
+	color: rgb(114,12,12);
+	text-align: center;
+	font-size: 40px;
+	padding: 20px 20px 20px;
+}
+
+h3{
+	color: rgb(114,12,12);
+	font-family: Georgia, serif;
+	font-weight: bold;
+	font-size: 50px;
+	display: inline-block;
+	text-align: center;
+}
+
+h5{
+margin-left: auto;
+font-family: Gill Sans MT, sans-serif;
+font-weight: bold;
+color: rgb(252,214,141);
+margin-right: auto;
+width: 22em;
+font-size: 30px;
+}
+
+nav{
+	float: right;
+	line-height: 130px;
+	padding-right: 30px;
+}
+
+ul{
+	color: white;
+	background-color:rgb(252,214,141);
+	font-size: 200%;
+
+}
+
+ul li{
+	display: inline-block;
+	padding: 10px 10px 20px;
+}
+
+ul li a{
+	font-family: Gill Sans MT, sans-serif;
+	color: rgb(213,125,93);
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+ul li a:hover{
+	color: rgb(114,12,12);
+	text-decoration: none;
+}
+
+.smallimageresize{
+	width: 200px;
+	height: auto;
+}
+
+#portnavigation, #mainportfolio{
+	width: 100%;
+	margin: 30px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.portsection{
+	margin: 0px 30px;
+}
+
+#footer{
+	padding-top: 20px;
+	bottom: 0;
+	width: 100%;
+	background-color:rgb(252,214,141);
+	text-align: right;
+	overflow: auto;
+}
+
+#footer ul{
+	margin: 0px 20px;
+}
+
+#leftfoot h4{
+	color: rgb(213,125,93);
+	text-align: left;
+	margin: 0px 30px;
+	bottom: 0;
+	height: 100 px;
+	font-family: Gill Sans MT, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#leftfoot p{
+	text-align: left;
+	margin: 0px 30px;
+	height: 100 px;
+	font-size: 25px;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	color: rgb(114,12,12);
+}
+
+#leftfoot{
+	width: 70%;
+	float: left;
+}
+
+#rightfoot{
+	width: 30%;
+	float: right;
+}
+
+#email, #canva, #about{
+	text-align: center;
+}
+
+.email h3{
+	position: relative;
+	top: -40px;
+}
+
+.canva h3{
+	position: relative;
+	top: -40px;
+}
+
+.hero-image {
+  background-image: url("media/leaves.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
